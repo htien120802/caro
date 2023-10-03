@@ -58,3 +58,7 @@ body {
 #log > div {
   margin-top: 5px;
 }
+
+.settings, .mode-container, .level-container, #reset-board{
+    margin-top: 10px;
+}
