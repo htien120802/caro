@@ -347,7 +347,7 @@ function setScoreMap() {
 }
 function logLine(row, col) {
   const line = document.createElement("div");
-  line.textContent = `${currentPlayer}:       ${row} - ${col}`;
+  line.textContent = `Player ${currentPlayer}: row = ${row}, col = ${col}`;
   document.getElementById("log").append(line);
   console.log(line);
 }
